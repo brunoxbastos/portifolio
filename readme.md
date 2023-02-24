@@ -1,2 +1,2 @@
-esse é meu projeto de portifolio web
-maior merda isso
+Meu projeto de pagina profisional 
+portifolio-rho-opal.vercel.app
