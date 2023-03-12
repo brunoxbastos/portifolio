@@ -217,22 +217,83 @@
         font-size: 1.2rem;
     }
 
-    /* ortifolio */
+    /* Portifolio */
 
     .portifolio {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
-        margin: 2% 10%;
-        justify-content: space-evenly;
+        margin: 0% 10%;
+        justify-content: flex-start;
     }
 
-    .portifolio__caixa {}
+    .portifolio__caixa {
+        box-sizing: border-box;
+        position: relative;
+        
+    }
 
     .portifolio__caixa__imagem {
-        width: 90%;
+        width: 100%;
     }
+
+    .back {
+        background-color: var(--cor-primaria);
+    }
+
+    .portifolio__caixa__texto {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        bottom: 0%;
+        right: 0%;
+        padding: 15% 5% 5% 5%;
+        text-align:  end;
+        box-sizing: border-box;
+        background: linear-gradient(180deg, rgba(252,255,231,0.027989130434782572) 0%, rgba(252,255,231,1) 100%);
+    }
+
+    .titulo {
+        font-family: var(--texto-destaque);
+        color: var(--cor-primaria);
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .tipo {
+        font-family: var(--texto-paragrafo);
+        color: var(--cor-primaria);
+        font-size: 1.2rem;
+    }
+
+    .portifolio__caixa__texto a {
+        font-family: var(--texto-paragrafo);
+        font-size: 1rem;
+        color: var(--cor-primaria);
+        text-decoration: ;
+    }
+
+
+    /* imagens porktifolio */
+
+    .botao__voltar {
+        width: 3%;
+        position: fixed;
+        margin: 0 3%;
+        
+    }
+
+    .portifolio__projeto {
+        width: 70%;
+        margin: auto;
+    }
+
+
+
+    
+
+    
 
     /* midia query */
 
@@ -425,19 +486,29 @@
         /* portifolio */
 
         .portifolio {
-            width: 90%;
+            width: 75%;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 2rem;
-            margin: 10%;
+            margin: 0 10%;
+            text-align: center;
         }
 
-        .portifolio__caixa {}
+        .portifolio__caixa {
+
+        }
 
         .portifolio__caixa__imagem {
-            width: 90%;
+            
         }
+
+        /* imagens porktifolio */
+
+    .botao__voltar {
+        width: 5%;
+        position: fixed;
+    }
 
 
 
