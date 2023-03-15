@@ -295,12 +295,20 @@
         width: 3%;
         position: fixed;
         margin: 0 3%;
+        bottom: 5%;
         
     }
 
-    .portifolio__projeto {
+    
+
+    .portifolio__projeto__img {
         width: 70%;
         margin: auto;
+    }
+
+    .portifolio__projeto__img p {
+        width: 70%;
+        margin: 3% auto;
     }
 
 
