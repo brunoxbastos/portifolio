@@ -1,18 +1,21 @@
     /*font*/
 
-    @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url("https://use.typekit.net/bfi2oil.css");
+    
+
 
     /*font*/
 
     /* variaveis */
 
     :root {
-        --cor-primaria: #2B3467;
-        --cor-secundaria: #BAD7E9;
-        --cor-tercearia: #FCFFE7;
+        --cor-primaria: #fbfcf4;
+        --cor-secundaria: #2B3467;
+        --cor-tercearia: #333333;
+        --cor-quarta: #EB455F;
 
-        --texto-destaque: 'krona one', sans-serif;
-        --texto-paragrafo: 'montserrat', sans-serif;
+        --texto-destaque: "proxima-nova", sans-serif;
+        --texto-paragrafo: "nobel", sans-serif;
 
     }
 
@@ -29,7 +32,9 @@
     /* heder e nav */
 
     .cabeçalho {
-        padding: 2% 80% 3% 10%;
+        padding: 2% 80% 1% 10%;
+        border-bottom: #EB455F 0.1rem solid;
+        margin: 0 0% 3% 0;
     }
 
     .cabeçalho__menu {
@@ -41,18 +46,21 @@
         color: var(--cor-tercearia);
         font-family: var(--texto-paragrafo);
         text-decoration: none;
+        text-transform: uppercase;
     }
 
     /* footer */
 
     .roda_pe {
         font-family: var(--texto-destaque);
-        color: var(--cor-secundaria);
+        color: var(--cor-primaria);
         text-align: center;
-        font-size: 0.6rem;
-        background-color: var(--cor-tercearia);
+        font-size: 1rem;
+        background-color: var(--cor-secundaria);
         padding: 1%;
         margin: 10% 0;
+        position: absolute;
+        
     }
 
 
@@ -116,14 +124,15 @@
 
 
     .apresentacao__conteudo__links__botao {
-        background-color: var(--cor-tercearia);
+        background-color: var(--cor-primaria);
         width: 45%;
         padding: 2% 2%;
-        border-radius: 1rem;
+        border-bottom: var(--cor-quarta) 0.1rem solid;
+        
         font-family: var(--texto-paragrafo);
-        color: black;
+        color: var(--cor-secundaria);
         font-style: normal;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 170%;
         text-align: center;
         text-decoration: none;
@@ -177,31 +186,34 @@
         margin: 0 0 2% 0;
         font-size: 2.5rem;
         font-family: var(--texto-destaque);
-        color: var(--cor-tercearia);
+        color: var(--cor-secundaria);
+        
     }
 
     .experiencia {
         margin: 5% 0 0 0;
+        
     }
 
     .topicos__texto {
         font-size: 1.2rem;
         font-family: var(--texto-paragrafo);
-        color: var(--cor-secundaria);
+        color: var(--cor-tercearia);
     }
 
     .empresa {
         font-family: var(--texto-destaque);
-        color: var(--cor-secundaria);
-        font-size: 1.6rem;
+        color: var(--cor-tercearia);
+        font-size: 1.4rem;
         margin: 0;
     }
 
     .cargo {
         font-family: var(--texto-destaque);
-        color: var(--cor-tercearia);
+        color: var(--cor-secundaria);
         font-size: 1.6rem;
         margin: 0;
+        
     }
 
     .tempo {
@@ -213,7 +225,7 @@
 
     .experiencia__texto {
         font-family: var(--texto-paragrafo);
-        color: var(--cor-secundaria);
+        color: var(--cor-tercearia);
         font-size: 1.2rem;
     }
 
@@ -257,15 +269,16 @@
 
     .titulo {
         font-family: var(--texto-destaque);
-        color: var(--cor-primaria);
+        color: var(--cor-secundaria);
         font-size: 1.2rem;
-        margin: 0;
+        margin: 0.2rem;
     }
 
     .tipo {
         font-family: var(--texto-paragrafo);
-        color: var(--cor-primaria);
+        color: var(--cor-tercearia);
         font-size: 1.2rem;
+        margin: 0.2rem;
     }
 
     .portifolio__caixa__texto a {
