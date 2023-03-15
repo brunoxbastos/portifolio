@@ -229,9 +229,10 @@
     }
 
     .portifolio__caixa {
+        width: 40vh;
+        
         box-sizing: border-box;
         position: relative;
-        
     }
 
     .portifolio__caixa__imagem {
