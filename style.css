@@ -233,12 +233,12 @@
     /* Portifolio */
 
     .portifolio {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3rem 6rem;
-        margin: 0% 10%;
-        justify-content: flex-start;
+        width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
+    margin: auto;
+    justify-content: space-between;
     }
 
     .portifolio__caixa {
