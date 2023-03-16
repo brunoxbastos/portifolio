@@ -163,6 +163,7 @@
     }
 
     .parte_1 {
+        width: 90%;
         display: flex;
         gap: 3%;
     }
