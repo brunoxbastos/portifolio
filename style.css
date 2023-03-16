@@ -82,6 +82,7 @@
         display: flex;
         flex-direction: column;
         gap: 40px;
+        justify-content: center;
     }
 
     .nome {
@@ -139,7 +140,7 @@
     }
 
     .apresentacao__conteudo__links__botao:hover {
-        color: var(--cor-secundaria);
+        color: var(--cor-quarta);
     }
 
     .foto {
@@ -235,7 +236,7 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 3rem 6rem;
         margin: 0% 10%;
         justify-content: flex-start;
     }
@@ -264,7 +265,7 @@
         padding: 15% 5% 5% 5%;
         text-align:  end;
         box-sizing: border-box;
-        background: linear-gradient(180deg, rgba(252,255,231,0.027989130434782572) 0%, rgba(252,255,231,1) 100%);
+        
     }
 
     .titulo {
@@ -295,7 +296,7 @@
         width: 3%;
         position: fixed;
         margin: 0 3%;
-        bottom: 5%;
+        bottom: 10%;
         
     }
 
@@ -398,12 +399,12 @@
 
 
         .apresentacao__conteudo__links__botao {
-            background-color: var(--cor-tercearia);
+            background-color: var();
             width: 45%;
             padding: 2% 2%;
-            border-radius: 1rem;
+            
             font-family: var(--texto-paragrafo);
-            color: black;
+            
             font-style: normal;
             font-weight: 600;
             font-size: 170%;
