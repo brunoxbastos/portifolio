@@ -287,8 +287,13 @@
         font-family: var(--texto-paragrafo);
         font-size: 1rem;
         color: var(--cor-primaria);
-        text-decoration: ;
     }
+
+    .portifolio__projeto__img h4 {
+        margin: 1% 0;
+    }
+
+    
 
 
     /* imagens porktifolio */
