@@ -33,6 +33,7 @@
 
     .cabeçalho {
         padding: 2% 80% 1% 10%;
+        background-color: var(--cor-primaria);
         border-bottom: #EB455F 0.1rem solid;
         margin: 0 0% 3% 0;
     }
@@ -58,9 +59,8 @@
         font-size: 1rem;
         background-color: var(--cor-secundaria);
         padding: 1%;
-        margin: 10% 0;
+        margin: 4% 0 0 0;
         position: absolute;
-        
     }
 
 
@@ -68,7 +68,7 @@
     /* main */
 
     .apresentacao {
-        margin: 10%;
+        margin: 5%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -144,7 +144,7 @@
     }
 
     .foto {
-        width: 50%;
+        width: 30%;
     }
 
     
@@ -251,16 +251,15 @@
 
     .portifolio {
         width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem 2rem;
-    margin: auto;
-    justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem 2rem;
+        margin: auto;
+        justify-content: space-between;
     }
 
     .portifolio__caixa {
         width: 40vh;
-        
         box-sizing: border-box;
         position: relative;
     }
@@ -370,7 +369,7 @@
         .apresentacao {
             margin: 10%;
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
         }
 
         .apresentacao__conteudo {
